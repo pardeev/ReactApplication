@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Activity data format base",
+    "descriptions": "Activity data format for import and export. By Pardeev Reddy",
+    "type": "array",
+    "properties": {
+        "activity": {
+            "type": "object",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "dates": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "description": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "dates",
+                    "description"
+                ]
+            }
+        }
+    }
+}

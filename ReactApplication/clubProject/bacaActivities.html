@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BACA Activities</title>
+    <link rel="stylesheet" href="club.css">
+    <script src="eventData.js"></script>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">BACA Home</a></li>
+                <li><a href="bacaLogin.html">BACA Login</a></li>
+                <li class="active"><a href="#">BACA Activites</a></li>
+                <li><a href="bacaApplication.html">BACA Application</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>Activities Page</h1>
+    </header>
+    <figure>
+        <img src="images/CricketActivity.png" alt="CricketActivity">
+        <figcaption>Fig.2 - Image depicting Cricket Trophy</figcaption>
+    </figure>
+    <main>
+        <h2>Club Activities</h2>
+        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd" transform="translate(3 3)">
+                <path
+                    d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z"
+                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <g fill="currentColor">
+                    <circle cx="7.5" cy="7.5" r="1" transform="matrix(-1 0 0 1 15 0)" />
+                    <circle cx="3.5" cy="7.5" r="1" />
+                    <circle cx="11.5" cy="7.5" r="1" />
+                </g>
+            </g>
+        </svg>
+        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                transform="translate(3 3)">
+                <path
+                    d="m4.5.5h6c.5522847 0 1 .44771525 1 1v5c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4v-5c0-.55228475.44771525-1 1-1z" />
+                <path d="m7.5 10.5v3" />
+                <path
+                    d="m4.5 13.5h6c.5522847 0 1 .4477153 1 1s-.4477153 1-1 1h-6c-.55228475 0-1-.4477153-1-1s.44771525-1 1-1zm7-11h2c.5522847 0 1 .44771525 1 1v1c0 1.1045695-.8954305 2-2 2h-1zm-8 0h-2c-.55228475 0-1 .44771525-1 1v1c0 1.1045695.8954305 2 2 2h1z" />
+            </g>
+        </svg>
+        <h2>Activity Schedule</h2>
+        <table id="table_id">
+            <caption>Activities</caption>
+        </table>
+    </main>
+    <script>
+        table = document.getElementById("table_id");
+        theader = table.createTHead();
+        row = theader.insertRow(-1);
+        cell1 = row.insertCell(0);
+        cell2 = row.insertCell(1);
+        cell3 = row.insertCell(2);
+        cell1.innerHTML = "Name";
+        cell2.innerHTML = "Dates";
+        cell3.innerHTML = "Description";
+        tableBody = table.createTBody();
+        row2 = tableBody.insertRow(-1);
+        row3 = tableBody.insertRow(0);
+        row4 = tableBody.insertRow(1);
+        row2.insertCell(0).innerHTML = "Practise sessions for September";
+        row3.insertCell(0).innerHTML = "Warm up matches for September";
+        row4.insertCell(0).innerHTML = "Tournament dates for September";
+        row2.insertCell(1).innerHTML = ["Sept 13th", "Sept 14th", "Sept 15th", "Sept 20th", "Sept 21st", "Sept 22nd"];
+        row3.insertCell(1).innerHTML = ["Sept 16th", "Sept 17th", "Sept 23rd", "Sept 24th"];
+        row4.insertCell(1).innerHTML = ["Sept 27th", "Sept 28th", "Sept 29th", "Sept 30th"];
+        row2.insertCell(2).innerHTML = "These sessions include warmup sessions, strength training, and technique sessions for batting bowling and fielding.";
+        row3.insertCell(2).innerHTML = "These matches are considered as practise matches for upcoming tournments.";
+        row4.insertCell(2).innerHTML = "Different tournments will be conducted on these specific dates with different oppositions.";
+    </script>
+    <footer>
+        &copy; BACA 2021
+    </footer>
+</body>
+
+</html>

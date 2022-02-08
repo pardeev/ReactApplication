@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Applicant",
+    "description": "A club applicant data",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 25
+        },
+        "email": {
+            "type": "string",
+            "pattern": "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$"
+        },
+        "password": {
+            "type": "string",
+            "pattern": "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,20}$"
+        },
+        "confirmPassword": {
+            "type": "string",
+            "pattern": "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,20}$"
+        },
+        "selectOption": {
+            "type": "string"
+        },
+        "comments": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+        }
+    },
+    "required": ["name", "email", "password", "confirmPassword"],
+    "additionalProperties": false
+}

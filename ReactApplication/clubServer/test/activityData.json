@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Activity test data",
+        "dates": ["Sept 13th"],
+        "description": "This is just for testing JSON schema"
+    }
+]

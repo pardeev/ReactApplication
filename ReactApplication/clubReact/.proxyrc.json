@@ -1,0 +1,8 @@
+{
+    "/members": {
+        "target": "http://localhost:9996"
+    },
+    "/activities": {
+        "target": "http://localhost:8886"
+    }
+}

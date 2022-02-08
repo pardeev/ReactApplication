@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BACA Application</title>
+    <link rel="stylesheet" href="club.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">BACA Home</a></li>
+            <li><a href="bacaLogin.html">BACA Login</a></li>
+            <li><a href="bacaActivities.html">BACA Activites</a></li>
+            <li class="active"><a href="#">BACA Application</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>BACA Membership Application</h1>
+    </header>
+    <main class="application"> 
+        <div>
+            <h2>Apply now!!</h2>
+            <form action="" method="get" class="form-example">
+                <label>Name:</label>
+                <input type="text" id="applicant_name" name="applicant_name" placeholder="Applicant Name" minlength="8"
+                    maxlength="15" required>
+                <label>Email:</label>
+                <input type="text" id="email" name="email" placeholder="Email address" minlength="8" maxlength="20"
+                    required>
+                <label>Password:</label>
+                <input type="password" id="pass" name="password" placeholder="Password" minlength="8" maxlength="15"
+                    required>
+                <label>Where did you here about us: </label>
+                <select name="select_example" id="select_example">
+                    <option value="friends">Friends</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="club_members">Club Members</option>
+                </select>
+                <button id="clickMe" type="button">Sign Up</button>
+            </form>
+        </div>
+    </main>
+    <section id="ThanksDialog">
+        <div class="message">
+            <h3>Thanks for Signing Up!!</h3>
+            <p id="UserInfo"></p>
+            <button id="Close">Close</button>
+        </div>
+    </section>
+    <script>
+        apply = document.getElementById("clickMe");
+        applicantName = document.getElementById("applicant_name");
+        email = document.getElementById("email");
+        apply.addEventListener("click", function (event) {
+            thanksDialog = document.getElementById("ThanksDialog");
+            userInfo = document.getElementById("UserInfo");
+            thanksDialog.style.display = "block";
+            displayInfo = `Your name: ${applicantName.value}, <br>`;
+            displayInfo += `email: ${email.value} <br>`;
+            userInfo.innerHTML = displayInfo;
+            thanksDialog.classList.toggle("show");
+        });
+    </script>
+    <footer>
+        &copy; BACA 2021
+    </footer>
+</body>
