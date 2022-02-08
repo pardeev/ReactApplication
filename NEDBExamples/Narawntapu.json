@@ -1,0 +1,22 @@
+[
+{"sciName": "Ornithorhynchus anatinus", "comName": "Platypus"},
+{"sciName": "Tachyglossus aculeatus setosus" , "comName": "Echidna"},
+{"sciName": "Antechinus minimus minimus", "comName": "Swamp Antechinus"},
+{"sciName": "Dasyurus maculatus maculatus", "comName": "Spotted-tailed Quoll"},
+{"sciName": "Dasyurus viverrinus", "comName": "Eastern Quoll"},
+{"sciName": "Sarcophilus harrisii", "comName": "Tasmanian Devil"},
+{"sciName": "Sminthopsis leucopus leucopus", "comName": "White-footed Dunnart"},
+{"sciName": "Isoodon obesulus affinus", "comName": "Brown Bandicoot"},
+{"sciName": "Perameles gunnii", "comName": "Eastern Barred Bandicoot"},
+{"sciName": "Vombatus ursinus tasmaniensis", "comName": "Common Wombat"},
+{"sciName": "Pseudocheirus peregrinus viverrinus", "comName": "Ringtail Possum"},
+{"sciName": "Trichosurus vulpecula fuliginosus", "comName": "Brushtail Possum"},
+{"sciName": "Cercartetus nanus nanus", "comName": "Eastern Pygmy Possum"},
+{"sciName": "Bettongia gaimardi", "comName": "Bettong"},
+{"sciName": "Potorous tridactylus apicalis", "comName": "Potoroo"},
+{"sciName": "Macropus giganteus tasmaniensis", "comName": "Forester Kangaroo"},
+{"sciName": "Macropus rufogriseus rufogriseus", "comName": "Bennetts Wallaby"},
+{"sciName": "Thylogale billardierii", "comName": "Tasmanian Pademelon"},
+{"sciName": "Hydromys chrysogaster", "comName": "Water Rat"},
+{"sciName": "Rattus lutreolus", "comName": "Swamp Rat"}
+]

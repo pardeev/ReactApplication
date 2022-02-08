@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://grotto-networking.com/example2.schema.json",
+    "title": "Windsurf Foil",
+    "description": "For the most fun use a foil",
+    "type": "object",
+    "properties": {
+        "frontWing": {
+            "description": "Length of front wing in cm",
+            "type": "integer"
+        },
+        "rearWing": {
+            "description": "Length of rear wing in cm",
+            "type": "integer"
+        },
+        "color": {
+            "description": "Color of the foil",
+            "type": "string"
+        },
+        "material": {
+            "type": "string"
+        }
+    },
+    "required": ["frontWing", "rearWing"],
+    "additionalProperties": false
+}

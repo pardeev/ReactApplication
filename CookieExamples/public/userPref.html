@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>User Preferences to Track with Cookie</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        
+		h2 { font-family: sans-serif; }
+        body {
+            margin: 2em;
+        }
+        
+        fieldset {
+            width: 400px;
+        }
+        
+        form {
+            font-family: sans-serif;
+        }
+        
+        .formRow {}
+        
+        label {
+            margin-top: 1em;
+            margin-right: 1em;
+            width: 200px;
+            display: inline-block;
+            text-align: right;
+        }
+        
+        input,
+        select,
+        button {
+            width: 100px;
+            margin-top: 1em;
+            margin-right: 1em;
+        }
+        
+        button {
+            max-width: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>User Name and Preferences</h2>
+    <form action="/setUserPrefs" method="post">
+        <fieldset>
+            <div class="formRow">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="formRow">
+                <label for="backColor">Prefered Background Color</label>
+                <input type="color" id="backColor" name="backColor" value="#00FF00">
+            </div>
+            <div class="formRow">
+                <label for="fontColor">Prefered Font Color</label>
+                <input type="color" id="fontColor" name="fontColor" value="#100100">
+            </div>
+
+            <div class="formRow">
+                <label for="typeSize">Prefered Font Size</label>
+                <input type="number" id="typeSize" name="typeSize" value="16">
+            </div>
+
+            <div class="formRow">
+                <label for="fontStyle">Prefered Font Style</label>
+                <select name="fontStyle" id="fontStyle">
+                <option value="serif">Serif</option>
+                <option value="sans-serif">Sans-Serif</option>
+                <option value="monospace">Monospace</option>
+                <option value="cursive">Cursive</option>
+            </select>
+            </div>
+            <div class="formRow">
+                <button type="submit">Set Your Preferences</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

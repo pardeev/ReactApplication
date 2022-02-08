@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Network Visualization Format",
+    "descriptions": "Network Visualization format compatible with NetworkX JSON graph",
+    "definitions": {
+        "node": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "minLength": 1
+                },
+                "type": {"type": "string"},
+                "x": {"type": "number"},
+                "y": {"type": "number"},
+                "layer": {"type": "string"},
+                "ipv4": {"type": "string"},
+                "mac": {"type": "string"}
+            },
+            "required": ["id", "x", "y"]
+        },
+        "link": {
+            "type": "object",
+            "properties": {
+                "source": {
+                    "type": "string"
+                },
+                "target": {
+                    "type": "string"
+                },
+                "capacity": {
+                    "type": "number",
+                    "minimum": 0
+                },
+                "weight": {
+                    "type": "number",
+                    "minimum": 0
+                },
+                "ports": {
+                    "type": "object"
+                }
+            },
+            "required": ["source", "target"]
+        }
+    },
+
+    "type": "object",
+    "properties": {
+        "nodes": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/node"
+            }
+        },
+        "links": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/link"
+            }
+        },
+        "graph": {"type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "desc": {"type": "string"}
+            }},
+        "directed": {"type": "boolean"},
+        "multigraph": {"type": "boolean"}
+    },
+    "required": ["nodes"]
+}

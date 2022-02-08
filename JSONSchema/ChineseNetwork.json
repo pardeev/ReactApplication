@@ -1,0 +1,948 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {
+        "name": "ChineseNet",
+        "desc": "Demonstration network from a paper I read."
+    },
+    "nodes": [
+        {
+            "y": 327,
+            "x": 254,
+            "type": "switch",
+            "id": "n12"
+        },
+        {
+            "y": 93,
+            "x": 394,
+            "type": "switch",
+            "id": "n13"
+        },
+        {
+            "y": 411,
+            "x": 147,
+            "type": "data_center",
+            "id": "n10"
+        },
+        {
+            "y": 408,
+            "x": 229,
+            "type": "switch",
+            "id": "n11"
+        },
+        {
+            "y": 295,
+            "x": 399,
+            "type": "switch",
+            "id": "n16"
+        },
+        {
+            "y": 359,
+            "x": 398,
+            "type": "switch",
+            "id": "n17"
+        },
+        {
+            "y": 170,
+            "x": 403,
+            "type": "data_center",
+            "id": "n14"
+        },
+        {
+            "y": 239,
+            "x": 400,
+            "type": "switch",
+            "id": "n15"
+        },
+        {
+            "y": 430,
+            "x": 390,
+            "type": "data_center",
+            "id": "n18"
+        },
+        {
+            "y": 503,
+            "x": 284,
+            "type": "switch",
+            "id": "n19"
+        },
+        {
+            "y": 55,
+            "x": 636,
+            "type": "switch",
+            "id": "n52"
+        },
+        {
+            "y": 19,
+            "x": 679,
+            "type": "switch",
+            "id": "n53"
+        },
+        {
+            "y": 175,
+            "x": 644,
+            "type": "switch",
+            "id": "n50"
+        },
+        {
+            "y": 99,
+            "x": 629,
+            "type": "data_center",
+            "id": "n51"
+        },
+        {
+            "y": 295,
+            "x": 541,
+            "type": "data_center",
+            "id": "n38"
+        },
+        {
+            "y": 354,
+            "x": 568,
+            "type": "switch",
+            "id": "n39"
+        },
+        {
+            "y": 535,
+            "x": 563,
+            "type": "switch",
+            "id": "n30"
+        },
+        {
+            "y": 44,
+            "x": 524,
+            "type": "switch",
+            "id": "n31"
+        },
+        {
+            "y": 26,
+            "x": 589,
+            "type": "data_center",
+            "id": "n32"
+        },
+        {
+            "y": 7,
+            "x": 633,
+            "type": "switch",
+            "id": "n33"
+        },
+        {
+            "y": 108,
+            "x": 572,
+            "type": "switch",
+            "id": "n34"
+        },
+        {
+            "y": 160,
+            "x": 577,
+            "type": "switch",
+            "id": "n35"
+        },
+        {
+            "y": 204,
+            "x": 551,
+            "type": "switch",
+            "id": "n36"
+        },
+        {
+            "y": 251,
+            "x": 562,
+            "type": "switch",
+            "id": "n37"
+        },
+        {
+            "y": 223,
+            "x": 642,
+            "type": "switch",
+            "id": "n49"
+        },
+        {
+            "y": 294,
+            "x": 639,
+            "type": "switch",
+            "id": "n48"
+        },
+        {
+            "y": 439,
+            "x": 607,
+            "type": "switch",
+            "id": "n41"
+        },
+        {
+            "y": 412,
+            "x": 578,
+            "type": "switch",
+            "id": "n40"
+        },
+        {
+            "y": 502,
+            "x": 638,
+            "type": "switch",
+            "id": "n43"
+        },
+        {
+            "y": 476,
+            "x": 581,
+            "type": "data_center",
+            "id": "n42"
+        },
+        {
+            "y": 399,
+            "x": 669,
+            "type": "switch",
+            "id": "n45"
+        },
+        {
+            "y": 458,
+            "x": 668,
+            "type": "switch",
+            "id": "n44"
+        },
+        {
+            "y": 327,
+            "x": 712,
+            "type": "switch",
+            "id": "n47"
+        },
+        {
+            "y": 363,
+            "x": 643,
+            "type": "data_center",
+            "id": "n46"
+        },
+        {
+            "y": 495,
+            "x": 525,
+            "type": "switch",
+            "id": "n29"
+        },
+        {
+            "y": 448,
+            "x": 495,
+            "type": "switch",
+            "id": "n28"
+        },
+        {
+            "y": 202,
+            "x": 491,
+            "type": "switch",
+            "id": "n23"
+        },
+        {
+            "y": 148,
+            "x": 493,
+            "type": "switch",
+            "id": "n22"
+        },
+        {
+            "y": 76,
+            "x": 463,
+            "type": "data_center",
+            "id": "n21"
+        },
+        {
+            "y": 536,
+            "x": 456,
+            "type": "switch",
+            "id": "n20"
+        },
+        {
+            "y": 400,
+            "x": 490,
+            "type": "switch",
+            "id": "n27"
+        },
+        {
+            "y": 360,
+            "x": 490,
+            "type": "switch",
+            "id": "n26"
+        },
+        {
+            "y": 304,
+            "x": 493,
+            "type": "switch",
+            "id": "n25"
+        },
+        {
+            "y": 252,
+            "x": 491,
+            "type": "switch",
+            "id": "n24"
+        },
+        {
+            "y": 222,
+            "x": 252,
+            "type": "data_center",
+            "id": "n8"
+        },
+        {
+            "y": 330,
+            "x": 172,
+            "type": "switch",
+            "id": "n9"
+        },
+        {
+            "y": 69,
+            "x": 25,
+            "type": "switch",
+            "id": "n0"
+        },
+        {
+            "y": 190,
+            "x": 60,
+            "type": "switch",
+            "id": "n1"
+        },
+        {
+            "y": 105,
+            "x": 144,
+            "type": "switch",
+            "id": "n2"
+        },
+        {
+            "y": 170,
+            "x": 113,
+            "type": "data_center",
+            "id": "n3"
+        },
+        {
+            "y": 161,
+            "x": 184,
+            "type": "switch",
+            "id": "n4"
+        },
+        {
+            "y": 308,
+            "x": 53,
+            "type": "switch",
+            "id": "n5"
+        },
+        {
+            "y": 104,
+            "x": 265,
+            "type": "switch",
+            "id": "n6"
+        },
+        {
+            "y": 168,
+            "x": 312,
+            "type": "switch",
+            "id": "n7"
+        }
+    ],
+    "links": [
+        {
+            "source": "n12",
+            "capacity": 10,
+            "target": "n8",
+            "weight": 88.557
+        },
+        {
+            "source": "n12",
+            "capacity": 10,
+            "target": "n9",
+            "weight": 59.226
+        },
+        {
+            "source": "n12",
+            "capacity": 10,
+            "target": "n11",
+            "weight": 62.694
+        },
+        {
+            "source": "n12",
+            "capacity": 10,
+            "target": "n17",
+            "weight": 142.79
+        },
+        {
+            "source": "n13",
+            "capacity": 10,
+            "target": "n22",
+            "weight": 98.97
+        },
+        {
+            "source": "n13",
+            "capacity": 10,
+            "target": "n21",
+            "weight": 45.238
+        },
+        {
+            "source": "n13",
+            "capacity": 10,
+            "target": "n14",
+            "weight": 53.439
+        },
+        {
+            "source": "n13",
+            "capacity": 10,
+            "target": "n6",
+            "weight": 119.79
+        },
+        {
+            "source": "n13",
+            "capacity": 10,
+            "target": "n7",
+            "weight": 96.358
+        },
+        {
+            "source": "n10",
+            "capacity": 10,
+            "target": "n9",
+            "weight": 62.694
+        },
+        {
+            "source": "n10",
+            "capacity": 10,
+            "target": "n11",
+            "weight": 59.226
+        },
+        {
+            "source": "n10",
+            "capacity": 10,
+            "target": "n19",
+            "weight": 165.08
+        },
+        {
+            "source": "n10",
+            "capacity": 10,
+            "target": "n5",
+            "weight": 132.53
+        },
+        {
+            "source": "n11",
+            "capacity": 10,
+            "target": "n19",
+            "weight": 94.445
+        },
+        {
+            "source": "n11",
+            "capacity": 10,
+            "target": "n18",
+            "weight": 161.94
+        },
+        {
+            "source": "n16",
+            "capacity": 10,
+            "target": "n8",
+            "weight": 163.96
+        },
+        {
+            "source": "n16",
+            "capacity": 10,
+            "target": "n17",
+            "weight": 36.175
+        },
+        {
+            "source": "n16",
+            "capacity": 10,
+            "target": "n25",
+            "weight": 75.032
+        },
+        {
+            "source": "n16",
+            "capacity": 10,
+            "target": "n15",
+            "weight": 25.958
+        },
+        {
+            "source": "n17",
+            "capacity": 10,
+            "target": "n18",
+            "weight": 45.68
+        },
+        {
+            "source": "n17",
+            "capacity": 10,
+            "target": "n8",
+            "weight": 210
+        },
+        {
+            "source": "n17",
+            "capacity": 10,
+            "target": "n27",
+            "weight": 83.139
+        },
+        {
+            "source": "n17",
+            "capacity": 10,
+            "target": "n26",
+            "weight": 71.936
+        },
+        {
+            "source": "n14",
+            "capacity": 10,
+            "target": "n23",
+            "weight": 73.948
+        },
+        {
+            "source": "n14",
+            "capacity": 10,
+            "target": "n22",
+            "weight": 72.809
+        },
+        {
+            "source": "n14",
+            "capacity": 10,
+            "target": "n15",
+            "weight": 42.422
+        },
+        {
+            "source": "n14",
+            "capacity": 10,
+            "target": "n7",
+            "weight": 70.679
+        },
+        {
+            "source": "n15",
+            "capacity": 10,
+            "target": "n8",
+            "weight": 144.67
+        },
+        {
+            "source": "n15",
+            "capacity": 10,
+            "target": "n24",
+            "weight": 71.831
+        },
+        {
+            "source": "n18",
+            "capacity": 10,
+            "target": "n28",
+            "weight": 90.49
+        },
+        {
+            "source": "n18",
+            "capacity": 10,
+            "target": "n19",
+            "weight": 118.81
+        },
+        {
+            "source": "n18",
+            "capacity": 10,
+            "target": "n20",
+            "weight": 113.91
+        },
+        {
+            "source": "n19",
+            "capacity": 10,
+            "target": "n20",
+            "weight": 178.12
+        },
+        {
+            "source": "n52",
+            "capacity": 10,
+            "target": "n32",
+            "weight": 24.959
+        },
+        {
+            "source": "n52",
+            "capacity": 10,
+            "target": "n53",
+            "weight": 26.049
+        },
+        {
+            "source": "n52",
+            "capacity": 10,
+            "target": "n51",
+            "weight": 11.326
+        },
+        {
+            "source": "n53",
+            "capacity": 10,
+            "target": "n33",
+            "weight": 15.14
+        },
+        {
+            "source": "n50",
+            "capacity": 10,
+            "target": "n36",
+            "weight": 78.658
+        },
+        {
+            "source": "n50",
+            "capacity": 10,
+            "target": "n51",
+            "weight": 53.365
+        },
+        {
+            "source": "n51",
+            "capacity": 10,
+            "target": "n31",
+            "weight": 106.2
+        },
+        {
+            "source": "n51",
+            "capacity": 10,
+            "target": "n34",
+            "weight": 28.004
+        },
+        {
+            "source": "n38",
+            "capacity": 10,
+            "target": "n39",
+            "weight": 37.14
+        },
+        {
+            "source": "n38",
+            "capacity": 10,
+            "target": "n48",
+            "weight": 79.594
+        },
+        {
+            "source": "n38",
+            "capacity": 10,
+            "target": "n26",
+            "weight": 59.813
+        },
+        {
+            "source": "n38",
+            "capacity": 10,
+            "target": "n25",
+            "weight": 16.766
+        },
+        {
+            "source": "n38",
+            "capacity": 10,
+            "target": "n37",
+            "weight": 16.692
+        },
+        {
+            "source": "n39",
+            "capacity": 10,
+            "target": "n48",
+            "weight": 72.63
+        },
+        {
+            "source": "n39",
+            "capacity": 10,
+            "target": "n27",
+            "weight": 70.168
+        },
+        {
+            "source": "n39",
+            "capacity": 10,
+            "target": "n46",
+            "weight": 50.962
+        },
+        {
+            "source": "n30",
+            "capacity": 10,
+            "target": "n29",
+            "weight": 24.89
+        },
+        {
+            "source": "n30",
+            "capacity": 10,
+            "target": "n20",
+            "weight": 91.094
+        },
+        {
+            "source": "n30",
+            "capacity": 10,
+            "target": "n43",
+            "weight": 58.924
+        },
+        {
+            "source": "n31",
+            "capacity": 10,
+            "target": "n21",
+            "weight": 42.403
+        },
+        {
+            "source": "n31",
+            "capacity": 10,
+            "target": "n32",
+            "weight": 40.354
+        },
+        {
+            "source": "n32",
+            "capacity": 10,
+            "target": "n33",
+            "weight": 15.635
+        },
+        {
+            "source": "n34",
+            "capacity": 10,
+            "target": "n21",
+            "weight": 99.518
+        },
+        {
+            "source": "n34",
+            "capacity": 10,
+            "target": "n35",
+            "weight": 21.949
+        },
+        {
+            "source": "n35",
+            "capacity": 10,
+            "target": "n22",
+            "weight": 62.917
+        },
+        {
+            "source": "n35",
+            "capacity": 10,
+            "target": "n36",
+            "weight": 19.149
+        },
+        {
+            "source": "n36",
+            "capacity": 10,
+            "target": "n23",
+            "weight": 31.104
+        },
+        {
+            "source": "n36",
+            "capacity": 10,
+            "target": "n37",
+            "weight": 16.073
+        },
+        {
+            "source": "n36",
+            "capacity": 10,
+            "target": "n24",
+            "weight": 52.456
+        },
+        {
+            "source": "n37",
+            "capacity": 10,
+            "target": "n49",
+            "weight": 62.47
+        },
+        {
+            "source": "n37",
+            "capacity": 10,
+            "target": "n24",
+            "weight": 45.112
+        },
+        {
+            "source": "n49",
+            "capacity": 10,
+            "target": "n48",
+            "weight": 45.187
+        },
+        {
+            "source": "n48",
+            "capacity": 10,
+            "target": "n47",
+            "weight": 56.328
+        },
+        {
+            "source": "n48",
+            "capacity": 10,
+            "target": "n46",
+            "weight": 42.38
+        },
+        {
+            "source": "n41",
+            "capacity": 10,
+            "target": "n40",
+            "weight": 5
+        },
+        {
+            "source": "n41",
+            "capacity": 10,
+            "target": "n42",
+            "weight": 12.18
+        },
+        {
+            "source": "n41",
+            "capacity": 10,
+            "target": "n44",
+            "weight": 36.153
+        },
+        {
+            "source": "n40",
+            "capacity": 10,
+            "target": "n28",
+            "weight": 69.807
+        },
+        {
+            "source": "n40",
+            "capacity": 10,
+            "target": "n45",
+            "weight": 71.778
+        },
+        {
+            "source": "n43",
+            "capacity": 10,
+            "target": "n42",
+            "weight": 34.44
+        },
+        {
+            "source": "n43",
+            "capacity": 10,
+            "target": "n44",
+            "weight": 22.088
+        },
+        {
+            "source": "n42",
+            "capacity": 10,
+            "target": "n29",
+            "weight": 29.829
+        },
+        {
+            "source": "n42",
+            "capacity": 10,
+            "target": "n28",
+            "weight": 70.059
+        },
+        {
+            "source": "n45",
+            "capacity": 10,
+            "target": "n44",
+            "weight": 29.789
+        },
+        {
+            "source": "n45",
+            "capacity": 10,
+            "target": "n47",
+            "weight": 62.414
+        },
+        {
+            "source": "n45",
+            "capacity": 10,
+            "target": "n46",
+            "weight": 11.399
+        },
+        {
+            "source": "n47",
+            "capacity": 10,
+            "target": "n46",
+            "weight": 54.152
+        },
+        {
+            "source": "n29",
+            "capacity": 10,
+            "target": "n20",
+            "weight": 56.936
+        },
+        {
+            "source": "n28",
+            "capacity": 10,
+            "target": "n20",
+            "weight": 77.363
+        },
+        {
+            "source": "n28",
+            "capacity": 10,
+            "target": "n27",
+            "weight": 15.891
+        },
+        {
+            "source": "n23",
+            "capacity": 10,
+            "target": "n22",
+            "weight": 23.439
+        },
+        {
+            "source": "n23",
+            "capacity": 10,
+            "target": "n24",
+            "weight": 18.283
+        },
+        {
+            "source": "n22",
+            "capacity": 10,
+            "target": "n21",
+            "weight": 54.047
+        },
+        {
+            "source": "n27",
+            "capacity": 10,
+            "target": "n26",
+            "weight": 5.6805
+        },
+        {
+            "source": "n26",
+            "capacity": 10,
+            "target": "n25",
+            "weight": 26.049
+        },
+        {
+            "source": "n25",
+            "capacity": 10,
+            "target": "n24",
+            "weight": 20.887
+        },
+        {
+            "source": "n8",
+            "capacity": 10,
+            "target": "n9",
+            "weight": 126.09
+        },
+        {
+            "source": "n8",
+            "capacity": 10,
+            "target": "n4",
+            "weight": 71.1
+        },
+        {
+            "source": "n8",
+            "capacity": 10,
+            "target": "n7",
+            "weight": 57.523
+        },
+        {
+            "source": "n9",
+            "capacity": 10,
+            "target": "n4",
+            "weight": 170.82
+        },
+        {
+            "source": "n0",
+            "capacity": 10,
+            "target": "n1",
+            "weight": 115.03
+        },
+        {
+            "source": "n0",
+            "capacity": 10,
+            "target": "n2",
+            "weight": 113.22
+        },
+        {
+            "source": "n1",
+            "capacity": 10,
+            "target": "n3",
+            "weight": 26.563
+        },
+        {
+            "source": "n1",
+            "capacity": 10,
+            "target": "n5",
+            "weight": 105.4
+        },
+        {
+            "source": "n2",
+            "capacity": 10,
+            "target": "n3",
+            "weight": 46.401
+        },
+        {
+            "source": "n2",
+            "capacity": 10,
+            "target": "n4",
+            "weight": 42.122
+        },
+        {
+            "source": "n3",
+            "capacity": 10,
+            "target": "n4",
+            "weight": 45.978
+        },
+        {
+            "source": "n4",
+            "capacity": 10,
+            "target": "n6",
+            "weight": 80.928
+        },
+        {
+            "source": "n6",
+            "capacity": 10,
+            "target": "n7",
+            "weight": 55.84
+        }
+    ]
+}

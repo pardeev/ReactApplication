@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://grotto-networking.com/example3.schema.json",
+    "title": "Activity",
+    "description": "A club activity for the schedule",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+        },
+        "dates": {
+            "description": "the date or dates of the activity",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+        }
+    },
+    "required": ["name", "dates"],
+    "additionalProperties": false
+}

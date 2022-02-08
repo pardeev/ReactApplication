@@ -1,0 +1,27 @@
+{
+  "id": "Multi-Export",
+  "desc": "Shortest_H2_H12, Widest_H2_H12, ",
+  "pathList": [
+    {
+      "cost": 24,
+      "capacity": 11,
+      "nodeList": [
+        "H2",
+        "S1",
+        "S3",
+        "H12"
+      ]
+    },
+    {
+      "cost": 34,
+      "capacity": 20,
+      "nodeList": [
+        "H2",
+        "S1",
+        "S2",
+        "S3",
+        "H12"
+      ]
+    }
+  ]
+}

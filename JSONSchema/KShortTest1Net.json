@@ -1,0 +1,78 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {
+        "name": "KShortTest1Net",
+        "desc": "An extremely simple network to test K-shortest path algorithms"
+    },
+    "nodes": [
+        {
+            "id": "N0",
+            "x": 296.77,
+            "y": 29.66,
+            "type": "switch"
+        },
+        {
+            "id": "N1",
+            "x": 338.77,
+            "y": 135.66,
+            "type": "switch"
+        },
+        {
+            "id": "N2",
+            "x": 258.77,
+            "y": 169.66,
+            "type": "switch"
+        },
+        {
+            "id": "N3",
+            "x": 203.77,
+            "y": 67.66,
+            "type": "switch"
+        },
+        {
+            "id": "N4",
+            "x": 425.77,
+            "y": 61.66,
+            "type": "switch"
+        }
+    ],
+    "links": [
+        {
+            "source": "N4",
+            "target": "N1",
+            "capacity": 50,
+            "weight": 10
+        },
+        {
+            "source": "N4",
+            "target": "N0",
+            "capacity": 40,
+            "weight": 7
+        },
+        {
+            "source": "N0",
+            "target": "N1",
+            "capacity": 45,
+            "weight": 10
+        },
+        {
+            "source": "N3",
+            "target": "N0",
+            "capacity": 50,
+            "weight": 10
+        },
+        {
+            "source": "N1",
+            "target": "N2",
+            "capacity": 42,
+            "weight": 15
+        },
+        {
+            "source": "N2",
+            "target": "N3",
+            "capacity": 30,
+            "weight": 12
+        }
+    ]
+}

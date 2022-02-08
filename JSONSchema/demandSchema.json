@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://grotto-networking.com/schemas/basicDemand",
+    "title": "Demand collection format base",
+    "descriptions": "Demand format for import and export. By Dr. Greg M. Bernstein",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "string"
+        },
+        "demandList": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "source": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    },
+                    "demand": {
+                        "type": "number",
+                        "minimum": 0
+                    }
+                },
+                "required": ["source", "target", "demand"]
+            }
+
+        }
+    },
+    "required": ["demandList"]
+}

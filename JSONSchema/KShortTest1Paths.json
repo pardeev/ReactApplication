@@ -1,0 +1,13 @@
+{ "id": "KShortTest1",
+  "desc": "Paths from K-Shortest Path test #1",
+  "pathList": [
+    { "capacity": 45,
+      "cost": 20.0,
+      "nodeList": ["N1","N0", "N3"] },
+    { "capacity": 30,
+      "cost": 27.0,
+      "nodeList": ["N1", "N2", "N3"] },
+    { "capacity": 40,
+      "cost": 27.0,
+      "nodeList": ["N1", "N4", "N0", "N3"] } ]
+}

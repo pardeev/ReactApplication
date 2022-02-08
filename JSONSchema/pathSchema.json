@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://grotto-networking.com/schemas/basicpath",
+    "title": "Path collection format base",
+    "descriptions": "Path collection format for import and export. By Dr. Greg M. Bernstein",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "string"
+        },
+        "pathList": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "nodeList": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": ["nodeList"],
+                "additionalProperties": true
+            }
+        }
+    },
+    "required": ["pathList"]
+}

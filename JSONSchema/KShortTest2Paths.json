@@ -1,0 +1,187 @@
+{
+  "id": "KShortTest2",
+  "desc": "Paths from K-Shortest Path test #2",
+  "pathList": [
+    {
+      "capacity": 42,
+      "cost": 442.0,
+      "nodeList": [
+        "A4",
+        "A17",
+        "A28",
+        "B9"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 523.0,
+      "nodeList": [
+        "A4",
+        "A9",
+        "A28",
+        "B9"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 537.0,
+      "nodeList": [
+        "A4",
+        "A17",
+        "A28",
+        "B16",
+        "B9"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 541.0,
+      "nodeList": [
+        "A4",
+        "A9",
+        "A23",
+        "B4",
+        "B9"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 541.0,
+      "nodeList": [
+        "A14",
+        "A17",
+        "A28",
+        "B9",
+        "B4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 577.0,
+      "nodeList": [
+        "A14",
+        "A4",
+        "A9",
+        "A23",
+        "B4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 583.0,
+      "nodeList": [
+        "A14",
+        "A17",
+        "A28",
+        "B9",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 636.0,
+      "nodeList": [
+        "A14",
+        "A17",
+        "A28",
+        "B16",
+        "B9",
+        "B4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 424.0,
+      "nodeList": [
+        "B28",
+        "A28",
+        "B9",
+        "B3",
+        "E5"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 486.0,
+      "nodeList": [
+        "B28",
+        "A28",
+        "B9",
+        "B4",
+        "B3",
+        "E5"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 519.0,
+      "nodeList": [
+        "B28",
+        "A28",
+        "B16",
+        "B9",
+        "B3",
+        "E5"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 521.0,
+      "nodeList": [
+        "B28",
+        "B22",
+        "B16",
+        "B9",
+        "B3",
+        "E5"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 493.0,
+      "nodeList": [
+        "A17",
+        "A28",
+        "B9",
+        "B3",
+        "D4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 555.0,
+      "nodeList": [
+        "A17",
+        "A28",
+        "B9",
+        "B4",
+        "B3",
+        "D4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 588.0,
+      "nodeList": [
+        "A17",
+        "A28",
+        "B16",
+        "B9",
+        "B3",
+        "D4"
+      ]
+    },
+    {
+      "capacity": 42,
+      "cost": 589.0,
+      "nodeList": [
+        "A17",
+        "A28",
+        "B9",
+        "C24",
+        "D4"
+      ]
+    }
+  ]
+}

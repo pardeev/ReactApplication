@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        <title>Cookie Example</title>
+        <style>
+            main {
+                  color: {{prefs.fontColor}};
+                  font-size: {{prefs.typeSize}}pt;
+                  font-family: {{prefs.fontStyle}};
+                  margin: 2em;
+                  padding: 1em;
+                  }
+            .report {
+                background-color: {{prefs.backColor}};
+            }
+        </style>
+		
+    </head>
+    <body>
+        <main>
+        <h1>Bad Weather Report for {{prefs.user_name}}</h1>
+            <p><a href="userPref.html">preferences</a></p>
+            <section class="report">
+                <h2>Weather</h2>
+                <h3>{{ weather }}</h3>
+            </section>
+            <section class="report">
+                <h2>Wind</h2>
+                <h3>{{ wind }} miles per hour</h3>
+            </section>
+            <section class="report">
+                <h2>Tide</h2>
+                <h3>{{ tide }} feet</h3>
+            </section>
+    
+      </main>
+    </body>
+</html>

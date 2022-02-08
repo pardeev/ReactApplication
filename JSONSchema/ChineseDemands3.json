@@ -1,0 +1,7 @@
+{"demandList":[
+    {"source": "n3", "target": "n51", "demand": 2.0},
+    {"source": "n8", "target": "n21", "demand": 1.0},
+    {"source": "n6", "target": "n23", "demand": 1.0},
+    {"source": "n7", "target": "n36", "demand": 1.0}
+]
+}

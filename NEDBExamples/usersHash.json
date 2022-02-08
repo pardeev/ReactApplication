@@ -1,0 +1,282 @@
+[
+  {
+    "firstName": "Arlen",
+    "lastName": "Melton",
+    "email": "sided1830@outlook.com",
+    "role": "admin",
+    "passHash": "$2a$13$HBbSiDmlu1qeuqf9.yIVVOkYZ0nIAroxv1caO3A1oBkI7MpqH3oJG"
+  },
+  {
+    "firstName": "Luna",
+    "lastName": "Munoz",
+    "email": "sylvan2059@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$dH0HxF4ssEkUSmTKiBMnU.U87IV384sWuqVazhjVcxxipuiGTQi3W"
+  },
+  {
+    "firstName": "Christoper",
+    "lastName": "Burns",
+    "email": "ox1815@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$PsFpk2BxnoE1.4q1ZslQwO4lBN5Xe3/E8Q.ckJWNXvu1pj5yxq.dm"
+  },
+  {
+    "firstName": "Vania",
+    "lastName": "Fleming",
+    "email": "bouto2050@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$DYBRYo9pmiPNuxmf8Mqy3uZEWl9j8DUpcdZhkoVBmlXyLmaEsymOa"
+  },
+  {
+    "firstName": "Jermaine",
+    "lastName": "Cannon",
+    "email": "prolongating1890@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$5ZHpQ/INPsGDBfTuDiKoauziLD9oRpXzBHj1Qg1zk0zd79Wg7jHgy"
+  },
+  {
+    "firstName": "Debroah",
+    "lastName": "Arnold",
+    "email": "ballsy1959@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$8N7x9AzOd0G.JHpwX/k6Lum2oOr8o0ORnrkUsoP9gNg2wWqpfnHvS"
+  },
+  {
+    "firstName": "Muoi",
+    "lastName": "Cain",
+    "email": "arienzo1954@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$wrJSzeS7lYSF5Nkr98076eEUy2k.aDLKNCzFScNDWTBik2em87oq2"
+  },
+  {
+    "firstName": "Glenn",
+    "lastName": "Jacobson",
+    "email": "subopercle2002@yahoo.com",
+    "role": "customer",
+    "passHash": "$2a$13$61GWXGfIF/q.YJhYjEuUU..iGWQy2X9mIX1HO93WVwoSodZ04eKK6"
+  },
+  {
+    "firstName": "Scarlet",
+    "lastName": "Cantu",
+    "email": "madonna1803@gmail.com",
+    "role": "customer",
+    "passHash": "$2a$13$ZQU3L2Tzf2IVzJDGknt.f.mAZ7GK9JS9rvrYcd5irVCbAV4Dp1Ik2"
+  },
+  {
+    "firstName": "Calvin",
+    "lastName": "Kemp",
+    "email": "columbic1841@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$50zNNJmOwnFxfFEVn9TssuHUHlay1pu4rzJ70BmC7q9JT3WSyOkxi"
+  },
+  {
+    "firstName": "Burl",
+    "lastName": "Vance",
+    "email": "vinylacetylene1825@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$8CJCgaY8TK.9m9Y1Ohb0IeW0khzqp.dtmkfYFKmV6AHw6jHtO1qTq"
+  },
+  {
+    "firstName": "Carrol",
+    "lastName": "Merrill",
+    "email": "decalage2058@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$rrZ6J7AtC7JqGBJKez60X.gQXuiA2S2g1GiDuf.FpNrQ0Pd41hjg6"
+  },
+  {
+    "firstName": "Clemente",
+    "lastName": "Nicholson",
+    "email": "armado1869@yahoo.com",
+    "role": "customer",
+    "passHash": "$2a$13$mdr4l1c3TKS34AmUOz9HQOXZXUjHLJdZV.2g8wY8FKs/Onw1rU9ku"
+  },
+  {
+    "firstName": "Erick",
+    "lastName": "Reynolds",
+    "email": "masterly1944@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$k8Rl.VmwjkcnMCMaHurbz.RcLbjW.7UvDSQPAiEuuKKCnGZ8HXD56"
+  },
+  {
+    "firstName": "Buster",
+    "lastName": "Bray",
+    "email": "sevennight1836@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$aN.z.h8RtwzQpVNvughwbuS/PmVRVA7WIsUnSeDN/hJRyLIFq2z0e"
+  },
+  {
+    "firstName": "Jeffrey",
+    "lastName": "York",
+    "email": "superurgency1889@yahoo.com",
+    "role": "customer",
+    "passHash": "$2a$13$ZPhAm7nDU9ouJeSDPt/RgehOltxoJmGYUGBhFjRAli.k9RZSwjy9m"
+  },
+  {
+    "firstName": "Kenneth",
+    "lastName": "Lopez",
+    "email": "hypotrophy1844@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$ecmghqZydvfk0q3KX4pNeeKSmam1Hq0vJd4xuO61dhNFwL4jw1/lC"
+  },
+  {
+    "firstName": "Ileen",
+    "lastName": "Robbins",
+    "email": "dutuburi2052@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$qB8w1niWFRs4MtdamyZveuWnxWtO3OpDao9yKqU9TVQPzgrG7vyqu"
+  },
+  {
+    "firstName": "Miss",
+    "lastName": "Anderson",
+    "email": "cimex2052@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$MCiNDnTiYjSnOylR9r2OHurOV3e8zeQyNEbQ66MpOl56A6t3ErQWm"
+  },
+  {
+    "firstName": "Gregory",
+    "lastName": "Foreman",
+    "email": "centered1804@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$8qBvbBOjfZG2aDba8P50gOPywkTcbrNa.l30NklkQlICgyBtSfU.i"
+  },
+  {
+    "firstName": "Lindsay",
+    "lastName": "Cantu",
+    "email": "augeri1841@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$tB2vtenDWgqyZSWfLjN.teTr4qJcL7bQxJ3e33D1xogRZZt7XRMfC"
+  },
+  {
+    "firstName": "Alexis",
+    "lastName": "Pratt",
+    "email": "diploptera1808@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$s6YuiSt5MppUemTwNWOFguX9m8QHo8wZWBQKfYx/a.xitbEBRxrG6"
+  },
+  {
+    "firstName": "Beatris",
+    "lastName": "Clemons",
+    "email": "paraflocculus2016@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$Wk/cIkDFnoThRQlca2eD0u6wXE9tkSRdboY50d0HCNUo2WsqQnIxK"
+  },
+  {
+    "firstName": "Eusebio",
+    "lastName": "Rollins",
+    "email": "lifts2067@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$Rdv/VmsCg8ZbdRJHbuKk8OsRqk1mT/rzXmCIcoWlj66sQr4yU5S0i"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Bowers",
+    "email": "rhythmically2034@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$DanFSAPoukMCzEEh7xHRl.vyzCBXRZapfRoKZwsM/RNW4aVp/Rl3G"
+  },
+  {
+    "firstName": "Kum",
+    "lastName": "Hart",
+    "email": "airflow1828@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$l2VsNHxiPUOtNXLhETjGFO/mzf42lIOjE88pZjtxK4HvwFCOffg6O"
+  },
+  {
+    "firstName": "Danuta",
+    "lastName": "Hart",
+    "email": "circulate1895@yahoo.com",
+    "role": "customer",
+    "passHash": "$2a$13$9ruJU2Op9HzIwA45lCeUw.rC.d1MSTcWI4cphhuU.GRqbZ07m1RuS"
+  },
+  {
+    "firstName": "Sharleen",
+    "lastName": "Bond",
+    "email": "donatistical1801@gmail.com",
+    "role": "customer",
+    "passHash": "$2a$13$gF8Amrpw8smN9wkJNMbDmeM7EmX.nxyyFdTlDtaPPPeT/sish4K8y"
+  },
+  {
+    "firstName": "Sid",
+    "lastName": "Bradford",
+    "email": "amstutz2008@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$8ZOTquXCvYhkgxBa3AZx8uS0Yqkx01H10.P5A5Ul0o23xeHiG04La"
+  },
+  {
+    "firstName": "Jasper",
+    "lastName": "Watkins",
+    "email": "poeticised1906@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$M0dt.zpGiPBeOpbNU/NGdOmCi6lSqbT3X/UcXM80SE9OZIaEwChYy"
+  },
+  {
+    "firstName": "Neta",
+    "lastName": "Byrd",
+    "email": "badminton1810@gmail.com",
+    "role": "customer",
+    "passHash": "$2a$13$0.xcTAQLpls8G2xTBEdrV.LXvh9aHhRhkklPgNB/erb5cpCsoZivm"
+  },
+  {
+    "firstName": "Morris",
+    "lastName": "Dunn",
+    "email": "mailbox2065@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$W0XyoQSedsgIdyZXMbs2OO0M1vOgTIQZ.EohWuRoWX3GxVA96EJcK"
+  },
+  {
+    "firstName": "Catrice",
+    "lastName": "Hartman",
+    "email": "hookheal1802@live.com",
+    "role": "customer",
+    "passHash": "$2a$13$qa3fu9VO7hz6J6Esmyt4/.WXS8REmlA1fULCanhM38SsnoPXCZePy"
+  },
+  {
+    "firstName": "Tyron",
+    "lastName": "Holden",
+    "email": "dilated1989@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$ikdZLwrBcwltTcYc6H/zVuzOd2owgFgmzReudlKTkEWq5CGGzTn0e"
+  },
+  {
+    "firstName": "Brooks",
+    "lastName": "Welch",
+    "email": "baggy1821@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$vOdG3T0NG2Cy51QAzc.xTOUXsJ81p2ww3jljkanfffF.mRZYSOyJe"
+  },
+  {
+    "firstName": "Ruben",
+    "lastName": "Schroeder",
+    "email": "tewing2024@gmail.com",
+    "role": "customer",
+    "passHash": "$2a$13$Vp6/ZnGN1XEoZGwdoTRjmu750yKgMerQlX1t/3fgkYc2Fuuz2JC1u"
+  },
+  {
+    "firstName": "Celena",
+    "lastName": "Kane",
+    "email": "archimedes1961@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$JmODurqcbGmAB2OjAi85e.RDGcrCceyOsRhoAbUEitSEfXRuu.28C"
+  },
+  {
+    "firstName": "Jeanmarie",
+    "lastName": "Pacheco",
+    "email": "regga2057@gmail.com",
+    "role": "customer",
+    "passHash": "$2a$13$cgy/NUQ0jCJU61rxbTpsBOmyHOU1b7mayTKcsTdndq4/5aOWwsgF2"
+  },
+  {
+    "firstName": "Darryl",
+    "lastName": "George",
+    "email": "eyeglasses1830@outlook.com",
+    "role": "customer",
+    "passHash": "$2a$13$9vSWPaX7ZsGSr3BCJuxu7u3S3ugNJef/AI8iOH/2r.dcoTtpW0UBy"
+  },
+  {
+    "firstName": "Cyrus",
+    "lastName": "Figueroa",
+    "email": "wren1919@yandex.com",
+    "role": "customer",
+    "passHash": "$2a$13$qMU5r1lIkuAOiAU5YlL9Zu/UJTz2v/FmRpzQXgR/pjMjUNNDRn3b6"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "NEDBExamples",
+  "version": "2.0.0",
+  "description": "ES6 modules and Promises",
+  "dependencies": {
+    "nedb-promises": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
