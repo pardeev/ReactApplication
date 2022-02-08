@@ -1,8 +1,3 @@
----
-title: Asynchronous JavaScript Examples
-author: Dr. Greg M. Bernstein
-date: October 8th, 2018
----
 
 # Asynchronous JavaScript Examples
 
